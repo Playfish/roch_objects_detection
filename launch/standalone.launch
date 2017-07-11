@@ -1,0 +1,5 @@
+<launch>
+  <node name="object_detection" pkg="roch_objects_detection" type="roch_objects_detection_node">
+    <remap from="/camera/image_raw" to="/camera/rgb/image_raw"/>
+  </node>
+</launch>
